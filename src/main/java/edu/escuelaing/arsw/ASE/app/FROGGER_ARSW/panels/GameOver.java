@@ -1,6 +1,6 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.panels;
+/*package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.panels;
 
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.FroggerPanel;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.FroggerPanel;
 import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.UI.PlaceholderTextField;
 
 import java.awt.AlphaComposite;
@@ -35,4 +35,4 @@ public class GameOver extends JPanel {
         g.drawString("GAME OVER", FroggerPanel.WIDTH / 2 - 220, FroggerPanel.HEIGHT / 2 - 40);
     }
 
-}
+}*/

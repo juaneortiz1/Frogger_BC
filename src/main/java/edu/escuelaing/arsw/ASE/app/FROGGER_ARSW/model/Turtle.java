@@ -1,4 +1,4 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects;
+package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model;
 
 
 public class Turtle extends LaneItem {

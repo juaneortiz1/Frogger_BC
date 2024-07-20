@@ -1,4 +1,4 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects;
+package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model;
 
 public class Log extends LaneItem {
     public static final int SHORT = 0, MEDIUM = 1, LONG = 2;

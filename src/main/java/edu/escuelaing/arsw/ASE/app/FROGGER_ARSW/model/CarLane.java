@@ -1,11 +1,23 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects;
+package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class CarLane extends Lane {
 
     public CarLane(double speed, int direction, int y) {
         super(speed, direction, y);
+    }
 
+
+    public List<Car> getCars() {
+        List<Car> carsInLane = new ArrayList<>();
+        for (LaneItem item : laneItems) {
+            if (item instanceof Car) {
+                carsInLane.add((Car) item);
+            }
+        }
+        return carsInLane;
     }
 
     void update() {
@@ -14,13 +26,13 @@ public class CarLane extends Lane {
         int length;
 
         switch (carType) {
-            case Car.SEMI: //if semi
+            case Car.SEMI: // if semi
                 length = 120;
                 break;
-            case Car.CAR_2: //if limo
+            case Car.CAR_2: // if limo
                 length = 80;
                 break;
-            default: //else is type of car
+            default: // else is type of car
                 length = 40;
                 break;
         }
@@ -41,7 +53,7 @@ public class CarLane extends Lane {
                 laneItems.add(newCar);
             }
         } else if (direction == LEFT) {
-            int location = 700 + (int) (Math.random() * 49) + length; //set location of car to spawn
+            int location = 700 + (int) (Math.random() * 49) + length; // set location of car to spawn
             if (laneItems.size() == 0) {
                 laneItems.add(new Car(speed, (int) (Math.random() * 4), LEFT, location, y));
             }

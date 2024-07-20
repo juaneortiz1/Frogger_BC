@@ -1,6 +1,6 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.panels;
+/*package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.panels;
 
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.FroggerPanel;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.FroggerPanel;
 import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.UI.PlaceholderTextField;
 import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.UI.CustomizedButtonUI;
 import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.frames.ScoreWindow;
@@ -9,10 +9,8 @@ import java.awt.AlphaComposite;
 import java.awt.Color;
 import java.awt.Composite;
 import java.awt.Font;
-import java.awt.FontFormatException;
 import java.awt.Graphics;
 import java.awt.Graphics2D;
-import java.awt.GraphicsEnvironment;
 import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -104,4 +102,4 @@ public class YouWin extends JPanel implements ActionListener {
         sWindow.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         sWindow.setVisible(true);
     }
-}
+}*/

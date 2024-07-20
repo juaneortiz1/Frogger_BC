@@ -1,6 +1,6 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.frames;
+/*package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.frames;
 
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.FroggerFrame;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.FroggerFrame;
 import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.UI.CustomizedButtonUI;
 
 import javax.imageio.ImageIO;
@@ -117,3 +117,4 @@ public class MenuFrame extends JFrame implements ActionListener {
 
 }
 
+*/

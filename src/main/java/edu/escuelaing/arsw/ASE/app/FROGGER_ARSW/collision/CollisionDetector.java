@@ -1,9 +1,9 @@
 package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.collision;
 
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.Frog;
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.Lane;
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.LogLane;
-import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects.LaneItem;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.Frog;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.Lane;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.LogLane;
+import edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model.LaneItem;
 
 import java.awt.geom.Area;
 

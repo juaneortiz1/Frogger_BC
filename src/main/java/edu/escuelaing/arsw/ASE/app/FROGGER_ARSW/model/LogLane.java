@@ -1,4 +1,4 @@
-package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.Objects;
+package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,6 +36,17 @@ public class LogLane extends Lane {
                     : -120 - i * (length + MIN_DISTANCE);
             laneItems.add(new Log(speed, type, direction, startX, y));
         }
+    }
+
+
+    public List<Log> getLogs() {
+        List<Log> logsInLane = new ArrayList<>();
+        for (LaneItem item : laneItems) {
+            if (item instanceof Log) {
+                logsInLane.add((Log) item);
+            }
+        }
+        return logsInLane;
     }
 
     @Override
@@ -97,4 +108,5 @@ public class LogLane extends Lane {
         }
     }
 }
+
 
