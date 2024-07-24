@@ -1,10 +1,10 @@
-# Frogger Game
+# Frogger_BC
 
-Welcome to the Frogger Game project! This is a classic arcade-style game implemented using React for the frontend and Spring Boot with Java for the backend. The project follows the Model-View-Controller (MVC) design pattern and uses a Client-Server Architecture.
+Welcome to the Frogger_BC project! This is a classic arcade-style game implemented using React for the frontend and Spring Boot with Java for the backend. The project follows the Model-View-Controller (MVC) design pattern and uses a Client-Server Architecture.
 
 ## Project Overview
 
-The Frogger Game is a browser-based game where players control frogs to cross a series of roads and rivers while avoiding obstacles such as cars and logs. The goal is to safely navigate the frog to one of the lily pads at the top of the screen.
+The Frogger_BC is a browser-based game where players control frogs to cross a series of roads and rivers while avoiding obstacles such as cars and logs. The goal is to safely navigate the frog to one of the lily pads at the top of the screen.
 
 ## Architecture
 
@@ -43,8 +43,7 @@ The Frogger Game is a browser-based game where players control frogs to cross a 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/frogger-game.git
-   cd frogger-game/frontend
+   git clone https://github.com/juaneortiz1/frontFrogger_BC.git
    ```
 
 2. **Install Dependencies**:
@@ -67,7 +66,7 @@ The Frogger Game is a browser-based game where players control frogs to cross a 
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/frogger-game.git
+   git clone https://github.com/juaneortiz1/Frogger_BC.git
    cd frogger-game/backend
    ```
 
@@ -141,7 +140,5 @@ The Frogger Game is a browser-based game where players control frogs to cross a 
 ## Contact
 
 For any questions or support, please contact:
-
-- **Email**: your.email@example.com
 - **GitHub**: [juaneortiz1](https://github.com/juaneortiz1)
 
