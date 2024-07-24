@@ -3,7 +3,7 @@ package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.dto;
 import java.util.List;
 
 public class FroggerGameDTO {
-    private FrogDTO frog;
+    private List<FrogDTO> frogs;
     private List<CarLaneDTO> carLanes;
     private List<LogLaneDTO> logLanes;
     private List<LilyPadDTO> lilyPads;
@@ -12,13 +12,15 @@ public class FroggerGameDTO {
     private boolean gameOver;
     private int lives; // Atributo para almacenar el número de vidas restantes
 
-    public FrogDTO getFrog() {
-        return frog;
+
+    public List<FrogDTO> getFrogs() {
+        return frogs;
     }
 
-    public void setFrog(FrogDTO frog) {
-        this.frog = frog;
+    public void setFrogs(List<FrogDTO> frogs) {
+        this.frogs = frogs;
     }
+
 
     public List<CarLaneDTO> getCarLanes() {
         return carLanes;
@@ -72,7 +74,7 @@ public class FroggerGameDTO {
         return lives;
     }
 
-    public void setLives(int lives) {
-        this.lives = lives;
+    public void setLives(int score) {
+        this.lives = score;
     }
 }

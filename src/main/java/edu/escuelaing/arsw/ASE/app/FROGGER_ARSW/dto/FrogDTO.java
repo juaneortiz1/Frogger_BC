@@ -2,6 +2,7 @@ package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.dto;
 
 
 public class FrogDTO {
+    private int id;
     private int x;
     private int y;
     private int direction;
@@ -30,5 +31,12 @@ public class FrogDTO {
         this.direction = direction;
     }
 
-    // Getters y setters
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+
+
 }

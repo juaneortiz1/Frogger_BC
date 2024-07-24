@@ -3,17 +3,27 @@ package edu.escuelaing.arsw.ASE.app.FROGGER_ARSW.model;
 import java.awt.*;
 
 public class Frog {
-
+    private static int idCounter = 1;
+    private int sessionId;
     public static final int LEFT = 0, RIGHT = 1, DOWN = 2, UP = 3, WIDTH = 40;
     private Rectangle boundingBox;
     private int x, y, direction;
 
 
     public Frog(int x, int y) {
+        this.sessionId = idCounter++;
+        System.out.println("Frog created with ID: " + this.sessionId);
         direction = UP;
         this.x = x;
         this.y = y;
         this.boundingBox = new Rectangle(this.x + 7, this.y + 9, 24, 24);
+    }
+    public int getSessionId() {
+        return sessionId;
+    }
+
+    public void setSessionId( int sessionId) {
+        this.sessionId = sessionId;
     }
 
     public void move(int direction) {
